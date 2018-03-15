@@ -12,9 +12,7 @@ public class Tv {
 		this.channel = channel;
 		this.volume = volume;
 	}
-
 	
-
 	public void power(boolean on) {
 //		this.power = on;
 		if (on == true) {
@@ -45,7 +43,7 @@ public class Tv {
 			this.volume = volume;
 		}
 	}
-
+	
 	public void volume(boolean up) {
 		if (volume < 100 && volume > 0) {
 			if (up == true) {
@@ -53,6 +51,7 @@ public class Tv {
 			} else {
 				volume --;
 			}
+			
 		}
 	}
 

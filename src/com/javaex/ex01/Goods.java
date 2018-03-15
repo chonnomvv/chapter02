@@ -5,6 +5,15 @@ public class Goods {
 	String name;
 	int price;
 	
+	public Goods() {}
+	
+	public Goods(String name, int price) {
+//		super();
+		this.name = name;
+		this.price = price;
+	}
+	
+	
 	/*public Goods() {
 		this.name = name;
 		this.price = price;

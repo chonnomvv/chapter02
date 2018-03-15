@@ -4,6 +4,12 @@ public class Point {
 	private int x;
 	private int y;
 	
+	public Point() {};
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
 	public void setX(int x) {
 		this.x = x;
 	}
@@ -25,7 +31,7 @@ public class Point {
 	}
 	
 	public void draw(int x, int y) {
-		System.out.println("점 [ x = "+ this.x + ", y = " + this.y + "] 뺴앵애애ㅐ애애애애애애애애애애애애액");
+		System.out.println("점 [ x = "+ x  + ", y = " + y + "] 지웠습니다.");
 	}
 
 }
